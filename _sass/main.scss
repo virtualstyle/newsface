@@ -27,22 +27,23 @@
   max-height: fill-available;
 }
 
-@media (min-width: 576px) {
+@include media-breakpoint-up(sm) {
 
-  .card-body {
-    padding-right: 12px;
-    min-width: 338px;
-  }
+    .card-body {
+      padding-right: 12px;
+      min-width: 338px;
+    }
 
-  .card-img-right {
-    height: auto;
-    min-width: 200px;
-    max-width: 200px;
-    max-height: 100%;
-    max-height: -moz-available;
-    max-height: -webkit-fill-available;
-    max-height: fill-available;
-  }
+    .card-img-right {
+      height: auto;
+      min-width: 200px;
+      max-width: 200px;
+      max-height: 100%;
+      max-height: -moz-available;
+      max-height: -webkit-fill-available;
+      max-height: fill-available;
+    }
+
 }
 
 .imgcredit {
