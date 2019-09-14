@@ -1,32 +1,124 @@
 //$card-spacer-x: .5rem;
-
 @import 'simplex/variables';
 @import 'bootstrap/bootstrap';
 @import 'simplex/bootswatch';
 @import 'bsblog';
+
+a.blog-header-logo:hover {
+  text-decoration: underline;
+}
 
 .blog-footer {
   margin-top: 360px;
 }
 
 .card-body {
-  padding-right: 12px;
-  max-width: 348px;
+  padding: 3px 6px;
 }
 
-.hero-img {
-
+.card {
+  margin-bottom: 12px;
+  box-shadow: 1px 1px #ddd;
+  height: 130px;
 }
 
 .card-img-right {
-  height: auto;
-  max-width: 120px;
-  max-height: 100%;
-  max-height: -moz-available;
-  max-height: -webkit-fill-available;
-  max-height: fill-available;
+  border-radius: 0 3px 3px 0;
+  object-fit: cover;
+  width: 120px;
+  height: 120px;
 }
 
+.thumb {
+  position: relative;
+  right: 0;
+}
+
+.imgcredit {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #efefef;
+  color: #333;
+  font-size: 9px;
+  width: 100%;
+  padding: 4px;
+  text-align: center;
+  max-width: 200px;
+}
+
+.hero-img {
+  height: 250px;
+  width: 139px;
+}
+
+#postcat,
+#postdate {
+  font-size: 0.5rem;
+}
+
+.card,
+.lead,
+.nav-scroller {
+  font-size: 0.65rem;
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-size: 0.65rem;
+}
+@media (min-width: 768px) {
+  h3 {
+    font-size: 0.85rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .card {
+    font-size: 1rem;
+  }
+
+  .card-img-right {
+    width: 180px;
+    height: 180px;
+  }
+
+  h3 {
+    font-size: 1.47rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .thumb {
+    right: -9px;
+  }
+
+  .imgcredit {
+    bottom: -2px;
+  }
+
+  #postcat,
+  #postdate,
+  .card,
+  .lead,
+  .nav-scroller {
+    font-size: 1rem;
+  }
+
+  .card {
+    height: 180px;
+  }
+}
+/*
 @include media-breakpoint-up(sm) {
 
     .card-body {
@@ -35,7 +127,7 @@
     }
 
     .card-img-right {
-      height: auto;
+      height: 100%;
       min-width: 200px;
       max-width: 200px;
       max-height: 100%;
@@ -45,16 +137,4 @@
     }
 
 }
-
-.imgcredit {
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background: #eee;
-  font-size: 9px;
-  width: 100%;
-  padding: 4px;
-  text-align: center;
-  max-width: 200px;
-}
+*/
