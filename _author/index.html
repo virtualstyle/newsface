@@ -1,0 +1,22 @@
+---
+layout: default
+permalink: /authors
+title: Authors
+---
+<div id="archives">
+{% for author in site.authors %}
+  <div class="archive-group">
+    {% capture author_name %}{{ author | first }}{% endcapture %}
+    <div id="#{{ author_name | slugize }}"></div>
+    <p></p>
+
+    <h3 class="author-head">{{ author_name }}</h3>
+    <a name="{{ author_name | slugize }}"></a>
+    {% for post in site.authors[author_name] %}
+    <article class="archive-item">
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+    </article>
+    {% endfor %}
+  </div>
+{% endfor %}
+</div>

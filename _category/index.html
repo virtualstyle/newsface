@@ -1,0 +1,24 @@
+---
+title: "Categories"
+permalink: /categories
+layout: default
+---
+<main id="archives">
+{% for category in site.categories %}
+  {% assign name = category[0] | strip %}
+  {% assign slug = category[0] | slugify %}
+  <div class="archive-group mb-5">
+    <h3 class="category-head mb-3">
+      {{ name }}
+      <a href="category/{{ slug }}">
+        <i class="fas fa-link fa-xs"></i>
+      </a>
+    </h3>
+    {% for post in site.categories[name] %}
+    <article class="archive-item">
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+    </article>
+    {% endfor %}
+  </div>
+{% endfor %}
+</main>

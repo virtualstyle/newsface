@@ -1,0 +1,59 @@
+//$card-spacer-x: .5rem;
+
+@import 'simplex/variables';
+@import 'bootstrap/bootstrap';
+@import 'simplex/bootswatch';
+@import 'bsblog';
+
+.blog-footer {
+  margin-top: 360px;
+}
+
+.card-body {
+  padding-right: 12px;
+  max-width: 348px;
+}
+
+.hero-img {
+
+}
+
+.card-img-right {
+  height: auto;
+  max-width: 120px;
+  max-height: 100%;
+  max-height: -moz-available;
+  max-height: -webkit-fill-available;
+  max-height: fill-available;
+}
+
+@media (min-width: 576px) {
+
+  .card-body {
+    padding-right: 12px;
+    min-width: 338px;
+  }
+
+  .card-img-right {
+    height: auto;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 100%;
+    max-height: -moz-available;
+    max-height: -webkit-fill-available;
+    max-height: fill-available;
+  }
+}
+
+.imgcredit {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #eee;
+  font-size: 9px;
+  width: 100%;
+  padding: 4px;
+  text-align: center;
+  max-width: 200px;
+}

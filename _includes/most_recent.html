@@ -1,0 +1,30 @@
+{% if post_count > 0 %}
+  <h1>Latest Post</h1>
+  {% for post in site.posts limit:1 %}
+    <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+      <div class="row">
+        <div class="col-md-6 px-0">
+          <h1 class="display-4 font-italic">{{ post.title }}</h1>
+        </div>
+        <div class="col-md px-0 text-right">
+          {% if post.img%}
+          {% assign imgcred = post.imgcredit | replace: "Photo by ", "" | replace: " on Unsplash", "" %}
+          <div style="position:relative;">
+            <img class="hero-img img-fluid" src="/assets/img/{{ post.img }}" alt="{{ post.alt }}">
+            <div class="imgcredit">
+              <span>Photo by
+                <a target="_blank" href='https://unsplash.com/@{{ imgcred | replace: " ", "" | slugify }}'>
+                {{ imgcred }}</a> on
+                <a target="_blank" href='https://unsplash.com'>Unsplash</a></span>
+              </div>
+          </div>
+          {% else %}
+          <img class="hero-img img-fluid" data-src="holder.js/450x250?theme=thumb" alt="Post Thumb">
+          {% endif %}
+        </div>
+      </div>
+      <p class="lead my-3">{{ post.excerpt | slice: 0, 360 }}...</p>
+      <p class="lead mb-0"><a href="{{ post.url }}" class="text-white font-weight-bold">Continue reading...</a></p>
+    </div>
+  {% endfor %}
+{% endif %}
