@@ -8,8 +8,59 @@ a.blog-header-logo:hover {
   text-decoration: underline;
 }
 
+nav a {
+  font-weight: bold;
+}
+
+p {
+  font-family: "Ubuntu", Tahoma, Arial, serif;
+}
+
+.continue {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 12px;
+}
+
 .blog-footer {
   margin-top: 110px;
+
+  p {
+    width: 80%;
+    text-align: left;
+    margin: 6px auto;
+  }
+  clear: both;
+}
+
+.blog-post {
+  h1 {
+    margin-bottom: 18px;
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    text-decoration: underline;
+  }
+
+  .blog-img {
+    margin-bottom: 18px;
+  }
+
+  .post {
+    width: 240px;
+    height: 120px;
+    margin: auto;
+    position: relative;
+  }
+
+  .post-img {
+    height: 120px;
+    width: 240px;
+    border-radius: 3px;
+  }
 }
 
 .blog-list {
@@ -20,18 +71,17 @@ a.blog-header-logo:hover {
   border: 1px solid #ddd;
   box-shadow: 1px 1px #ccc;
   border-radius: 4px;
-  padding: 6px 12px;
-  padding-bottom: 18px;
+  padding: 6px 12px 18px;
   margin: 6px;
   width: 22.5%;
-  position:relative;
+  position: relative;
 }
 
 .blog-list-item-date {
-  font-size: .5rem;
+  font-size: 0.5rem;
   position: absolute;
   bottom: 3px;
-  right: 6px
+  right: 6px;
 }
 
 .card-body {
@@ -78,13 +128,19 @@ a.blog-header-logo:hover {
   width: 240px;
   height: 120px;
   margin: auto;
-  position:relative;
+  position: relative;
 }
 
 .hero-img {
   height: 120px;
   width: 240px;
   border-radius: 3px;
+}
+
+.hero-title {
+  a {
+    color: #fff;
+  }
 }
 
 #postcat,
@@ -129,6 +185,29 @@ h3 {
   justify-content: center;
 }
 @media (min-width: 768px) {
+  .blog-post {
+    p {
+      -webkit-column-count: 2;
+      /* Chrome, Safari, Opera */
+      -moz-column-count: 2;
+      /* Firefox */
+      column-count: 2;
+      -webkit-column-gap: 20px;
+      /* Chrome, Safari, Opera */
+      -moz-column-gap: 20px;
+      /* Firefox */
+      column-gap: 20px;
+      column-rule-color: #ccc;
+      /* Optional */
+      column-rule-style: solid;
+      /* Optional */
+      column-rule-width: 1px;
+      /* Optional */
+      text-align: justify;
+      /* Optional */
+    }
+  }
+
   h3 {
     font-size: 0.85rem;
   }
@@ -138,6 +217,44 @@ h3 {
   }
 }
 @media (min-width: 992px) {
+  .blog-post {
+    p {
+      -webkit-column-count: 3;
+      /* Chrome, Safari, Opera */
+      -moz-column-count: 3;
+      /* Firefox */
+      column-count: 3;
+      -webkit-column-gap: 20px;
+      /* Chrome, Safari, Opera */
+      -moz-column-gap: 20px;
+      /* Firefox */
+      column-gap: 20px;
+      column-rule-color: #ccc;
+      /* Optional */
+      column-rule-style: solid;
+      /* Optional */
+      column-rule-width: 1px;
+      /* Optional */
+      text-align: justify;
+      /* Optional */
+    }
+
+    .post {
+      width: 450px;
+      height: 450px;
+      float: right;
+      margin-left: 36px;
+      margin-bottom: 36px;
+      margin-top: 18px;
+    }
+
+    .post-img {
+      width: 450px;
+      height: 450px;
+      border-radius: 3px;
+    }
+  }
+
   .card {
     height: 160px;
     font-size: 1rem;
@@ -148,9 +265,10 @@ h3 {
     height: 160px;
   }
 
-  .hero-img, .hero {
-    height: 250px;
-    width: 450px;
+  .hero,
+  .hero-img {
+    height: 300px;
+    width: 300px;
   }
 
   .hero-title {
@@ -167,6 +285,10 @@ h3 {
 
   .imgcredit {
     bottom: -2px;
+  }
+
+  #postcat {
+    font-weight: bold;
   }
 
   #postcat,

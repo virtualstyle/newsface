@@ -1,17 +1,17 @@
 {% assign imgclass = "card-img-right" %}
 {% assign thumbclass = "thumb" %}
-{% assign imgalt = "Newsy McNewsface default image US flag" %}
+{% assign imgalt = "US flag" %}
 
 {% if post.img %}
-  {% assign imgsrc= "/assets/img/thumbs/" | append: post.thumb %}
+  {% assign imgsrc= "/assets/img/thumbs/" | append: post.img %}
   {% assign imgcred = post.imgcredit | replace: "Photo by ", "" | replace: " on Unsplash", "" %}
   {% assign imgalt = post.alt %}
 {% else %}
-  {% assign imgsrc= "/assets/img/thumbs/rsz_1samuel-branch-zpvisr0s_hq-unsplash.jpg" %}
-  {% assign imgcred = "Samuel Branch" %}
+  {% assign imgsrc= "/assets/img/thumbs/default.jpg" %}
+  {% assign imgcred = "Photo by Aaron Burden on Unsplash" | replace: "Photo by ", "" | replace: " on Unsplash", "" %}
 {% endif %}
 
-{% if include.hero == "true" %}
+{% if include.type == "hero" %}
 
   {% assign imgclass = "hero-img" %}
   {% assign thumbclass = "hero" %}
@@ -19,7 +19,21 @@
   {% if post.img %}
     {% assign imgsrc= "/assets/img/" | append: post.img %}
   {% else %}
-    {% assign imgsrc= "/assets/img/samuel-branch-ZPVisr0s_hQ-unsplash.jpg" %}
+    {% assign imgsrc= "/assets/img/default.jpg" %}
+    {% endif %}
+
+{% endif %}
+
+
+{% if include.type == "post" %}
+
+  {% assign imgclass = "post-img" %}
+  {% assign thumbclass = "post" %}
+
+  {% if post.img %}
+    {% assign imgsrc= "/assets/img/" | append: post.img %}
+  {% else %}
+    {% assign imgsrc= "/assets/img/default.jpg" %}
     {% endif %}
 
 {% endif %}

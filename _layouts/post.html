@@ -1,0 +1,15 @@
+{% include page_top.html %}
+{% include header.html %}
+{% include nav.html %}
+
+<main role="main" class="container blog-post">
+  <h1>{{ page.title }}</h1>
+  <div class="blog-img">
+    {% assign post = page %}
+    {% include image.html type="post" %}
+  </div>
+  {{ content }}
+</main>
+
+{% include footer.html %}
+{% include page_bottom.html %}

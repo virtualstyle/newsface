@@ -8,7 +8,7 @@
           <div class="card-body d-table flex-column align-items-start" style="position:relative;height:100%;">
             <div class="row w-100">
               <div class="col">
-                <strong id="postcat" class="d-inline-block mb-md-2 text-primary">{{ post.category }}</strong>
+                <a href="/category/{{ post.category | slugify }}" id="postcat" class="d-inline-block mb-md-2 text-primary">{{ post.category }}</a>
               </div>
               <div class="col-auto text-right pr-0">
                 <div id="postdate" class="mb-1 text-muted text-right">{{ post.date | date: "%a, %b %d, %Y" }}</div>
@@ -18,9 +18,9 @@
               <a class="text-dark" href="{{ post.url }}">{{ post.title | truncatewords: 16 | slice: 0, 110 }}</a>
             </h3>
             <!--<p class="card-text mb-auto">{{ post.excerpt | slice: 0, 220 }}...</p>-->
-            <div style="position:absolute;bottom:0"><a href="{{ post.url }}">Continue reading...</a></div>
+            <div class="continue"><a href="{{ post.url }}">Continue reading...</a></div>
           </div>
-          {% include image.html %}
+          <a href="{{ post.url }}">{% include image.html %}</a>
         </div>
       </div>
       {% endif %}

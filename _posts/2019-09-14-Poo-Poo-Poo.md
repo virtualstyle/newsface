@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Lorem ipsum dolor amet meh yr keytar, irony tbh semiotics cred adaptogen biodiesel glossier plaid"
 category: "Conservative Shit"
 author: "Newsy McNewsface"
