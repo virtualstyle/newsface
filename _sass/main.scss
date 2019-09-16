@@ -12,6 +12,20 @@ nav a {
   font-weight: bold;
 }
 
+blockquote {
+  font-family: "Domine", Georgia, "Times New Roman", serif;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-left: 8px double #ccc;
+  background: #eee;
+  p {
+    margin-bottom: 0;
+  }
+}
+
 p {
   font-family: "Ubuntu", Tahoma, Arial, serif;
 }
@@ -41,8 +55,10 @@ p {
   }
 
   h2 {
-    font-size: 1.25rem;
-    text-decoration: underline;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #dedede;
+    font-weight: bold;
+    text-align: center;
   }
 
   .blog-img {
@@ -186,7 +202,7 @@ h3 {
 }
 @media (min-width: 768px) {
   .blog-post {
-    p {
+    .blog-content {
       -webkit-column-count: 2;
       /* Chrome, Safari, Opera */
       -moz-column-count: 2;
@@ -218,7 +234,7 @@ h3 {
 }
 @media (min-width: 992px) {
   .blog-post {
-    p {
+    .blog-content {
       -webkit-column-count: 3;
       /* Chrome, Safari, Opera */
       -moz-column-count: 3;

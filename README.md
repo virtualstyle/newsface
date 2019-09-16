@@ -28,7 +28,7 @@ A website for total nonsense.
 
 12. Go to the [post template](https://github.com/virtualstyle/newsface/tree/master/posts/_template.md), click Raw, then select and copy the contents.
 
-13. Go to the [posts directory](https://github.com/virtualstyle/newsface/tree/master/posts) and click Create New File. Paste in the contents you copied from the template.
+13. Go to the [posts directory](https://github.com/virtualstyle/newsface/tree/master/posts) and click Create New File. Name the new file in the format like 2019-09-16-file-name.md. Paste in the contents you copied from the template.
 
 14. Enter your title, delete all the category names except the one your post fits, add your author name and title, a brief excerpt describing the article, the name of the first image file created and uploaded above, the unsplash credit saved from step 3, and a descriptive alt tag for your photo next to their labels.
 

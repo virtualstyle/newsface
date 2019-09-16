@@ -3,7 +3,7 @@
 {% assign imgalt = "US flag" %}
 
 {% if post.img %}
-  {% assign imgsrc= "/assets/img/thumbs/" | append: post.img | replace ".jpg" "-thumb.jpg" %}
+  {% assign imgsrc= "/assets/img/thumbs/" | append: post.img | replace ".jpg", "-thumb.jpg" %}
   {% assign imgcred = post.imgcredit | replace: "Photo by ", "" | replace: " on Unsplash", "" %}
   {% assign imgalt = post.alt %}
 {% else %}
