@@ -1,0 +1,36 @@
+{% assign imgclass = "card-img-right" %}
+{% assign thumbclass = "thumb" %}
+{% assign imgalt = "Newsy McNewsface default image US flag" %}
+
+{% if post.img %}
+  {% assign imgsrc= "/assets/img/thumbs/" | append: post.thumb %}
+  {% assign imgcred = post.imgcredit | replace: "Photo by ", "" | replace: " on Unsplash", "" %}
+  {% assign imgalt = post.alt %}
+{% else %}
+  {% assign imgsrc= "/assets/img/thumbs/rsz_1samuel-branch-zpvisr0s_hq-unsplash.jpg" %}
+  {% assign imgcred = "Samuel Branch" %}
+{% endif %}
+
+{% if include.hero == "true" %}
+
+  {% assign imgclass = "hero-img" %}
+  {% assign thumbclass = "hero" %}
+
+  {% if post.img %}
+    {% assign imgsrc= "/assets/img/" | append: post.img %}
+  {% else %}
+    {% assign imgsrc= "/assets/img/samuel-branch-zpvisr0s_hq-unsplash.jpg" %}
+    {% endif %}
+
+{% endif %}
+
+<div class="{{ thumbclass }}">
+  <img class="{{ imgclass }}" src="{{ imgsrc }}" alt="{{ imgalt }}">
+  <div class="imgcredit">
+    <span>Photo by
+      <a target="_blank" href='https://unsplash.com/@{{ imgcred | replace: " ", "" | slugify }}'>
+      {{ imgcred }}</a> on
+      <a target="_blank" href='https://unsplash.com'>Unsplash</a>
+    </span>
+  </div>
+</div>

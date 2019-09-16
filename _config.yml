@@ -6,3 +6,6 @@ collections:
     output: true
   author:
     output: true
+plugins: [jekyll-paginate]
+paginate: 48
+paginate_path: /page:num/

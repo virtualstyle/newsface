@@ -1,17 +1,18 @@
 {% if post_count > 0 %}
-  <h1>Latest Post</h1>
+<div class="container">
   {% for post in site.posts limit:1 %}
     <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
       <div class="row">
-        <div class="col-md-6 px-0">
-          <h1 class="display-md-4 font-italic">{{ post.title }}</h1>
+        <div class="col-md px-0">
+          <h1 class="hero-title font-italic">{{ post.title }}</h1>
         </div>
-        <div class="col-md px-0 text-right">
-          {% include summary_image.html hero="true" %}
+        <div class="col-md-6 px-0">
+          {% include image.html hero="true" %}
         </div>
       </div>
       <p class="lead my-3">{{ post.excerpt | slice: 0, 360 }}...</p>
       <p class="lead mb-0"><a href="{{ post.url }}" class="text-white font-weight-bold">Continue reading...</a></p>
     </div>
   {% endfor %}
+</div>
 {% endif %}
