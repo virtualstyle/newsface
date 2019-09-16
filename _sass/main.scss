@@ -89,7 +89,7 @@ p {
   border-radius: 4px;
   padding: 6px 12px 18px;
   margin: 6px;
-  width: 22.5%;
+  width: 100%;
   position: relative;
 }
 
@@ -224,6 +224,10 @@ h3 {
     }
   }
 
+  .blog-list-item {
+    width: 50%;
+  }
+
   h3 {
     font-size: 0.85rem;
   }
@@ -269,6 +273,10 @@ h3 {
       height: 450px;
       border-radius: 3px;
     }
+  }
+
+  .blog-list-item {
+    width: 22.5%;
   }
 
   .card {
