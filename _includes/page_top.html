@@ -1,8 +1,10 @@
 {% assign title = page.title | append: " | " | append: site.title %}
 {% if page.img %}
-  {% assign imgsrc= "/assets/img/" | append: page.img %}
+  {% assign imgsrc = "/assets/img/" | append: page.img %}
+  {% assign imgalt = page.alt %}
 {% else %}
-  {% assign imgsrc= "/assets/img/default.jpg" %}
+  {% assign imgsrc = "/assets/img/default.jpg" %}
+  {% assign imgalt = "US flag in sunlit grassy field" %}
 {% endif %}
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
@@ -31,6 +33,7 @@
   <meta property="og:title" content="{{ title }}" />
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:image" content="{{ site.url }}{{ imgsrc }}" />
+  <meta property="og:image:alt" content="{{ site.url }}{{ imgsrc }}" />
   <meta property="og:description" content="{{ page.excerpt }}" />
   <meta property="og:site_name" content="Newsie McNewsface" />
   <meta property="fb:app_id" content="531707624037871" />
