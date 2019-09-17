@@ -3,7 +3,7 @@
 {% assign imgalt = "US flag" %}
 
 {% if post.img %}
-  {% assign imgsrc= "/assets/img/thumbs/" | append: post.img | replace ".jpg", "-thumb.jpg" %}
+  {% assign imgsrc= "/assets/img/thumbs/" | append: post.img | replace: ".jpg", "-thumb.jpg" %}
   {% assign imgcred = post.imgcredit | replace: "Photo by ", "" | replace: " on Unsplash", "" %}
   {% assign imgalt = post.alt %}
 {% else %}
@@ -39,7 +39,13 @@
 {% endif %}
 
 <div class="{{ thumbclass }}">
-  <img class="{{ imgclass }}" src="{{ imgsrc }}" alt="{{ imgalt }}">
+  {% if include.type == "recent" %}
+    <a href="{{ post.url }}">
+  {% endif %}
+    <img class="{{ imgclass }}" src="{{ imgsrc }}" alt="{{ imgalt }}">
+  {% if include.type == "recent" %}
+    </a>
+  {% endif %}
   <div class="imgcredit">
     <span>Photo by
       <a target="_blank" href='https://unsplash.com/@{{ imgcred | replace: " ", "" | slugify }}'>

@@ -20,7 +20,7 @@
             <!--<p class="card-text mb-auto">{{ post.excerpt | slice: 0, 220 }}...</p>-->
             <div class="continue"><a href="{{ post.url }}">Continue reading...</a></div>
           </div>
-          <a href="{{ post.url }}">{% include image.html %}</a>
+          {% include image.html type="recent" %}
         </div>
       </div>
       {% endif %}
