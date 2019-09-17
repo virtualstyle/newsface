@@ -1,4 +1,4 @@
-# Newsy McNewsface
+# Newsie McNewsface
 
 A website for total nonsense.
 

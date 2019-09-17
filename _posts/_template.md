@@ -2,7 +2,7 @@
 layout: post
 title:  ""
 category: "Conservative Shit|Liberal Shit|Goofy Shit|Real Shit"
-author: "Newsy McNewsface"
+author: "Newsie McNewsface"
 author_title: "Senior Enlightenment Correspondent"
 excerpt: ""
 img: "default.jpg"
