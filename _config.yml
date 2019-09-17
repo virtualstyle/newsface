@@ -9,3 +9,4 @@ collections:
 plugins: [jekyll-paginate]
 paginate: 48
 paginate_path: /page:num/
+timezone: America/New_York

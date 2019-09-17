@@ -3,6 +3,23 @@
 @import 'bootstrap/bootstrap';
 @import 'simplex/bootswatch';
 @import 'bsblog';
+@import 'bootstrap-social';
+
+#social-header {
+
+  padding: 6px;
+  padding-bottom: 12px;
+
+  .follow-us {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  #st-1 .st-top {
+    display: none;
+  }
+
+}
 
 a.blog-header-logo:hover {
   text-decoration: underline;
@@ -16,11 +33,10 @@ blockquote {
   font-family: "Domine", Georgia, "Times New Roman", serif;
   margin-top: 6px;
   margin-bottom: 12px;
-  padding: 6px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding: 6px 12px;
   border-left: 8px double #ccc;
   background: #eee;
+
   p {
     margin-bottom: 0;
   }
@@ -67,13 +83,13 @@ p {
 
   .post {
     width: 240px;
-    height: 120px;
+    height: 240px;
     margin: auto;
     position: relative;
   }
 
   .post-img {
-    height: 120px;
+    height: 240px;
     width: 240px;
     border-radius: 3px;
   }
@@ -142,13 +158,13 @@ p {
 
 .hero {
   width: 240px;
-  height: 120px;
+  height: 240px;
   margin: auto;
   position: relative;
 }
 
 .hero-img {
-  height: 120px;
+  height: 240px;
   width: 240px;
   border-radius: 3px;
 }
