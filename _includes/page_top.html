@@ -1,6 +1,6 @@
 {% assign title = page.title | append: " | " | append: site.title %}
-{% if post.img %}
-  {% assign imgsrc= "/assets/img/" | append: post.img %}
+{% if page.img %}
+  {% assign imgsrc= "/assets/img/" | append: page.img %}
 {% else %}
   {% assign imgsrc= "/assets/img/default.jpg" %}
 {% endif %}
