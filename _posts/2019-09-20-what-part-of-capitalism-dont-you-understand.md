@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What Part Of Capitalism Don&apos;t You Understand - Money IS More Important Than People"
-category: "Real Shit"
+category: "real-shit"
 author: "Newsie McNewsface"
 author_title: "Senior Economic System Correspondent"
 excerpt: "Just look at the root of the word capitalism. Capital. Money. If we wanted the system to put people first, why would we call it essentially &ldquo;Moneyism?&rdquo; If we wanted a system that put people first, we&apos;d have used a root like &ldquo;community&rdquo; &ldquo;society,&rdquo; and called the system something like &ldquo;communuism,&rdquo; or &ldquo;socialism.&rdquo; But we&apos;re not a bunch of whiny, bleeding heart pussies, and we don&apos;t want some weak society that cares about people. We want a system where we can buy yachts and jewelry, and thousand dollar tshirts, and wear them and look down on all the dirty lazy scum who have to buy their shirts at WalMart for 5 bucks."

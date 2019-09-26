@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Trump&#58; &ldquo;Make Up A Reason!&rdquo; For War With Iran"
-category: "Liberal Shit"
+category: "liberal-shit"
 author: "Newsie McNewsface"
 author_title: "Senior Iran War Correspondent"
 excerpt: "President Trump, upon being told by an aide that there weren't any compelling reasons to attack Iran and start a large scale war, shouted &ldquo;Make up a reason!&rdquo; Continuing, &ldquo; it&apos;s not like it&apos;s never been done before. Judst do something like The Maine, or the Gulf of Tonkin. Americans are stupid, they&apos;ll believe anything, and my voters don&apos; even need a reason, they&apos;ll attack anyone, anytime, reason or no reason, as long as I say so."

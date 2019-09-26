@@ -5,13 +5,11 @@ layout: default
 excerpt: "Newsie McNewsface - The Best News From The Best Country In The United States"
 ---
 <main class="container" id="archives">
-{% for category in site.categories %}
-  {% assign name = category[0] | strip %}
-  {% assign slug = category[0] | slugify %}
+{% for category in site.data.categories %}
   <div class="archive-group">
     <h3 class="category-head">
-      {{ name }}
-      <a href="/category/{{ slug }}">
+      {{ category.name }}
+      <a href="/category/{{ category.slug }}">
         <i class="fas fa-link fa-xs"></i>
       </a>
     </h3>

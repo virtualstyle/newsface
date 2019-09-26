@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Joe Biden Found Confused, Wandering In Park With Underwear On Outside Of Pants"
-category: "Conservative Shit"
+category: "conservative-shit"
 author: "Newsie McNewsface"
 author_title: "Senior Elderly Correspondent"
 excerpt: "Today Democratic Presidential Frontrunner Joe Biden was found wandering confused in a local park after having gone missing for several hours. The Obama Vice President was wearing his tighty whitey underwear on the outside, over his pants, and engaging strangers in weird, rambling conversations."

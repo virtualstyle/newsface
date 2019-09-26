@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "President Trump: US &ldquo;Ready to Fuck&rdquo;"
-category: "Liberal Shit"
+category: "liberal-shit"
 author: "Newsie McNewsface"
 author_title: "Senior Political Correspondent"
 excerpt: "Today, President Trump stated that the US is &ldquo;ready to fuck&rdquo; in regards to the attacks on Saudi oil production infrastructure. &ldquo;America has a huge, tremendous, throbbing military hard on, and we can't wait to run it up in Iran's asshole,&rdquo; Trump said, rubbing his hands together, licking his lips, and apparently drooling slightly."
