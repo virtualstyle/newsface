@@ -33,3 +33,5 @@ A website for total nonsense.
 14. Enter your title, delete all the category names except the one your post fits, add your author name and title, a brief excerpt describing the article, the name of the first image file created and uploaded above, the unsplash credit saved from step 3, and a descriptive alt tag for your photo next to their labels.
 
 15. Paste your article in, using the format of subheadings and paragraphs like the example. Any [Github Markdown](https://guides.github.com/features/mastering-markdown/) can be used in the article. When done, click the green Create New File button.
+
+16. Once the article is published, it might take a minute or two for the site to rebuild. Once you can, navigate to the article and share it on the Newsface facebook and twitter pages using the social links on the page. Might also share it on your personal accounts as well.
