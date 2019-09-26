@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-md-8 px-0">
           <h1 class="hero-title font-italic"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-          <p class="lead my-3">{{ post.excerpt | slice: 0, 360 }}...</p>
+          <p class="lead my-3">{{ post.excerpt | truncatewords: 64 | slice: 0, 640 }}...</p>
           <p class="lead mb-12px"><a href="{{ post.url }}" class="text-white font-weight-bold">Continue reading...</a></p>
         </div>
         <div class="col-md px-0">

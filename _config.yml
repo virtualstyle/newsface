@@ -4,7 +4,7 @@ title: "Newsie McNewsface" # the name of your site, e.g. ACME Corp.
 collections:
   category:
     output: true
-  author:
+  authors:
     output: true
 plugins: [jekyll-paginate]
 paginate: 48

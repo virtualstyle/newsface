@@ -5,6 +5,13 @@
 
 <main role="main" class="container blog-post">
   <h1>{{ page.title }}</h1>
+  <div>
+    <a href="/author/{{ post.author | slugify }}" id="postcat" class="d-inline-block mb-md-2 text-primary">
+      {{ page.author }}
+      <br>
+      {{ page.author_title }}
+    </a>
+  </div>
   <div class="blog-img">
     {% assign post = page %}
     {% include image.html type="post" %}

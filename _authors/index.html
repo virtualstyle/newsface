@@ -1,0 +1,20 @@
+---
+title: "Authors"
+permalink: /authors
+layout: default
+excerpt: "Newsie McNewsface - The Best News From The Best Country In The United States"
+---
+<main class="container" id="archives">
+  {% for author in site.authors %}
+    {% if author.title != "Authors" %}
+    <div class="archive-group">
+      <h3 class="category-head">
+        {{ author.title }}
+        <a href="/author/{{ author.title | slugify }}">
+          <i class="fas fa-link fa-xs"></i>
+        </a>
+      </h3>
+    </div>
+    {% endif %}
+  {% endfor %}
+</main>
