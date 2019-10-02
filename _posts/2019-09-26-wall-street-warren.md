@@ -13,3 +13,7 @@ alt: "Wall Street bull statue"
 ## You&apos;ll Nominate The Person We Want And You&apos;ll Like It
 
 Democratic Presidential Candidate Elizabeth Warren has Wall Street tycoons terrified that if she wins, they'll be required to pay a fair share of their obscene income in taxes, and they are throwing fits. So, to prove to voters who really holds the power in our system, they are threatening to pull their support, or even support President Trump, because they damn sure don't want **people** to have the power.
+
+> *&ldquo;Who the fuck do these voters think they are? They think they run this shit? **We** run this shit, and we&apos;ll prove it if we have to.&rdquo;*
+
+In the face of a potential Warren candidacy, Wall Street fat cats said, &rdquo;these peons should feel lucky for the scraps we throw them. Who the fuck do they think owns them? They're like damn dogs we condescend to feed, and we can damn well put them down if they start acting rabid and expecting us to pay any taxes at all, ever.&ldquo;
