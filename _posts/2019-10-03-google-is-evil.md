@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Google, Under Anti-Trust Scrutiny, Tells America: &rdquo;We OWN You&ldquo;"
+title:  "Google, Under Anti-Trust Scrutiny, Tells America: &ldquo;We OWN You&rdquo;"
 category: "goofy-shit"
 author: "Newsie McNewsface"
 author_title: "Senior Tech Correspondent"
-excerpt: "Google, angered by antitrust investigations, came out today and told Americans they OWN them, and they better shut the fuck up, or they'd all get their lives fucked. &rdquo;We know EVERYTHING about you, and we&apos;re happy to use that info to fuck up your life.&rdquo;"
+excerpt: "Google, angered by antitrust investigations, came out today and told Americans they OWN them, and they better shut the fuck up, or they'd all get their lives fucked. &ldquo;We know EVERYTHING about you, and we&apos;re happy to use that info to fuck up your life.&rdquo;"
 img: "mobile-phone-with-google-search-open.jpg"
 imgcredit: "Photo by Edho Pratama on Unsplash"
 alt: "Mobile phone with Google search page open"
