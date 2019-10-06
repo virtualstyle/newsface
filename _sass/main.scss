@@ -5,6 +5,43 @@
 @import 'bsblog';
 @import 'bootstrap-social';
 
+#header-ad {
+
+  ins {
+    border: 1px solid #dedede;
+    background: #efefef;
+    margin-bottom: 24px;
+  }
+
+  .fancy {
+    line-height: 0.5;
+    text-align: center;
+  }
+  .fancy span {
+    display: inline-block;
+    position: relative;
+  }
+  .fancy span:before,
+  .fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+    top: 0;
+    width: 2.5rem;
+  }
+  .fancy span:before {
+    right: 100%;
+    margin-right: 15px;
+  }
+  .fancy span:after {
+    left: 100%;
+    margin-left: 15px;
+  }
+
+}
+
 #social-header {
 
   padding: 6px;
