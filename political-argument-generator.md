@@ -1,11 +1,12 @@
 ---
 layout: default
 title: "Political Argument Generator"
+description: "Generate political arguments that make as much sense as anything else you see online these days."
 ---
 <div class="container">
 
   <h1 style="text-align:center;">Political Argument Generator</h1>
-
+  <p>Generate political arguments that make as much sense as anything else you see online these days.</p>
   <form style="width:320px;margin:auto;">
     <div class="form-group">
       <label for="paragraphs"># of Paragraphs</label>
