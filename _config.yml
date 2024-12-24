@@ -1,4 +1,4 @@
-url: "https://newsface.news" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://virtualstyle.github.io/newsface" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Newsie McNewsface" # the name of your site, e.g. ACME Corp.
 collections:
